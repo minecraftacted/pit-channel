@@ -39,3 +39,4 @@ jobs:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: D:\a\pit-channel\pit-channel\target\debug\pit-channel.exe
         asset_name: pit-channel.exe
+        asset_content_type: application/zip
